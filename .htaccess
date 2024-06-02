@@ -1,0 +1,6 @@
+Options +SymLinksIfOwnerMatch
+RewriteBase /LaracastSession2/
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /LaracastSession2/index.php [L]
